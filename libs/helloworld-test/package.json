@@ -1,0 +1,13 @@
+{
+  "name": "@romainfallet/helloworld-test",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "tsc --build",
+    "test": "node --test --watch ./src/**/*.spec.ts",
+    "clean": "del ./tsconfig.tsbuildinfo ./dist"
+  },
+  "dependencies": {
+    "@romainfallet/helloworld": "*"
+  }
+}

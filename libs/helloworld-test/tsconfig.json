@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "composite": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./dist"
+  },
+  "include": ["./src/**/*.ts"],
+  "references": [
+    {
+      "path": "../helloworld/tsconfig.json"
+    }
+  ]
+}

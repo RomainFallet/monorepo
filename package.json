@@ -2,10 +2,12 @@
   "name": "@romainfallet/monorepo",
   "workspaces": [
     "./apps/nodejs-helloworld",
-    "./libs/helloworld"
+    "./libs/helloworld",
+    "./libs/helloworld-test"
   ],
   "devDependencies": {
     "typescript": "~5.8.0",
-    "del-cli": "^6.0.0"
+    "del-cli": "^6.0.0",
+    "@types/node": "^22.0.0"
   }
 }
