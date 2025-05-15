@@ -1,0 +1,11 @@
+{
+  "name": "@romainfallet/monorepo",
+  "workspaces": [
+    "./apps/nodejs-helloworld",
+    "./libs/helloworld"
+  ],
+  "devDependencies": {
+    "typescript": "~5.8.0",
+    "del-cli": "^6.0.0"
+  }
+}

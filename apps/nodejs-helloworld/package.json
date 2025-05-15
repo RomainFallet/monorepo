@@ -1,0 +1,11 @@
+{
+  "name": "@romainfallet/nodejs-helloworld",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "node ./src/index.ts",
+    "lint": "tsc --build",
+    "clean": "del ./tsconfig.tsbuildinfo ./dist"
+  },
+  "dependencies": {}
+}
