@@ -8,6 +8,7 @@
   "devDependencies": {
     "typescript": "~5.8.0",
     "del-cli": "^6.0.0",
-    "@types/node": "^22.0.0"
+    "@types/node": "^22.0.0",
+    "@qiwi/multi-semantic-release": "^7.0.0"
   }
 }
