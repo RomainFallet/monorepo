@@ -1,8 +1,9 @@
 {
-  "name": "@romainfallet/nodejs-helloworld",
+  "name": "browser-helloworld",
   "type": "module",
   "scripts": {
-    "start": "node ./src/index.ts",
+    "start": "vite serve ./src",
+    "build": "vite build ./src --outDir ./dist",
     "lint": "tsc --build",
     "clean": "del ./tsconfig.tsbuildinfo ./dist"
   },
