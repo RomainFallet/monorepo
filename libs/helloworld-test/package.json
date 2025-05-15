@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "lint": "tsc --build",
-    "test": "node --test --watch ./src/**/*.spec.ts",
+    "test": "node --test ./src/**/*.ts",
     "clean": "del ./tsconfig.tsbuildinfo ./dist"
   },
   "dependencies": {
