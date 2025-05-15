@@ -4,6 +4,6 @@ import { helloworld } from "@romainfallet/helloworld";
 
 describe("helloworld", () => {
   test("say hello", () => {
-    strictEqual(helloworld(), "HelloWorld");
+    strictEqual(helloworld(), "HelloWorld!");
   });
 });
